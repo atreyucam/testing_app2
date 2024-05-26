@@ -1,6 +1,6 @@
 FROM node:14
 
-WORKDIR /backend
+WORKDIR /app
 
 COPY package*.json ./
 
