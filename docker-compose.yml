@@ -18,3 +18,5 @@ services:
       - "3000:3000"
     depends_on:
       - db
+   environment:
+      DATABASE_URL: postgres://atreyucam:UXwzs5wKVHtIFYZvYtWVw0oQJuDDbfiI@dpg-cp9rt5cf7o1s73a630ag-a/db_testing_9g79
