@@ -2,15 +2,12 @@ FROM node:14
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY backend/package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY backend ./
 
 EXPOSE 3000
-
-# Listar archivos para depuración
-RUN ls -la /app
 
 CMD ["node", "index.js"]
