@@ -19,4 +19,4 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgres://atreyucam:UXwzs5wKVHtIFYZvYtWVw0oQJuDDbfiI@dpg-cp9rt5cf7o1s73a630ag-a/db_testing_9g79
+      DATABASE_URL: postgres://atreyucam:UXwzs5wKVHtIFYZvYtWVw0oQJuDDbfiI@dpg-cp9rt5cf7o1s73a630ag-a.oregon-postgres.render.com/db_testing_9g79
