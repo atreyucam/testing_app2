@@ -10,4 +10,7 @@ COPY . .
 
 EXPOSE 3000
 
+# Listar archivos para depuración
+RUN ls -la /app
+
 CMD ["node", "index.js"]
